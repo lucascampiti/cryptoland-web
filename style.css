@@ -180,14 +180,13 @@ justify-items: center;
 justify-self: center;
 text-decoration: none;
 color: beige;
-background-image: url(../fondos/13.jpg);
+background-color: black;
 }
-
-.consulta{
-display: flex;
-flex-direction: column;
+.consulta{ 
+    display: flex;
+    flex-direction:column;
     
-}
+    }
 .grid{
 width: 100%;
  height: 100%;
