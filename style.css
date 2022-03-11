@@ -157,7 +157,7 @@ font-weight: bold;
 background-color: black;
 }
 
-.card{
+.tarjetas{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr ;
@@ -419,7 +419,7 @@ padding: 5px;
         flex-wrap: wrap;
     }
     
-    .card{
+    .tarjetas{
         grid-template-columns: repeat(2, 4fr);
         width: auto;
         height: auto;
@@ -442,8 +442,9 @@ padding: 5px;
     
 }
 
-@media screen and (max-width:600px){
-    .card{
+@media screen and (max-width:600px)
+{
+    .tarjetas{
         grid-template-columns: repeat(1, 1fr);
         width: auto;
         height: auto;
