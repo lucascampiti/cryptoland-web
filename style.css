@@ -1,85 +1,225 @@
 *{
     margin: 0px;
-    padding:0px;
+    padding: 0px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
     
    
  }
+
+ 
 .header{
-    background-color:darkcyan;
+    padding: 30px;
+   background-color:darkcyan;
    align-items: center;
-   background: #2C3E50;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
    
 }
 
 .cotizaciones{
     display: flex;
     list-style-type: none;
-    padding: 5px;
+    padding: 50px;
     width: auto;
     height: 30px;
     color: beige;
     text-align: left;
     justify-content: center;
     border-radius: 10px;
+    margin: 0px;
 
 }  
+
 .cotizaciones-box{
     width: 100px;
     height: 20px;
 }
 
 .fondologo{
-    width: 200px;
+    width:150px;
     border-radius: 100px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
     
 }
-.nav{
-    display:flex;
-    list-style-type: none;
-    padding: 10px;
-    align-items: center;
-    height: 10px;
-    border-radius: 10px;
-    background-color:black;
-   color:beige;
-   margin-left: auto;
-   margin-right: auto;
-   text-decoration: none;
 
-    }
+ .sizeemail{
+     width: 185px;
+     height: 20px;
+     text-align: center;
+     margin:5px;
+ }
+.buttonfooter{
+width: 100px;
+height: 20px;
+font-size: small;
+text-align: center;
+}
+.nav{
+    background-color:black;
+    justify-content: center;
+}
+.nav-item{
+    font-size: x-small;
+}
+
+ main{
+    background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Open Sans', sans-serif;
+    width: auto;
+    height: 800px;
+  }
+  
+  .container {
+    height: 800px;
+    width: auto;
+    top: 60px;
+    left: calc(50% - 300px);
+    display: flex;
+    align-items: center;
+  
+  }
+  .titlestyle{
+      text-decoration: none;
+      color: blanchedalmond;
+  }
+  .card {
+    display: flex;
+    height: 280px;
+    width: 200px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    margin-top: auto;
+    margin-bottom: auto;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .card:not(:first-child) {
+      margin-left: -50px;
+  }
+  
+  .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+  
+  .card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+  }
+  
+  .title {
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+  }
+  
+  .bar {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    height: 5px;
+    width: 150px;
+  }
+  
+  .emptybar {
+    background-color: #2e3033;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .filledbar {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background: rgb(0,154,217);
+    background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+    transition: 0.6s ease-out;
+  }
+  
+  .card:hover .filledbar {
+    width: 120px;
+    transition: 0.4s ease-out;
+  }
+  
+  .circle {
+    position: absolute;
+    top: 150px;
+    left: calc(50% - 60px);
+  }
+  
+  .stroke {
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.6s ease-out;
+  }
+  
+  svg {
+    fill: #17141d;
+    stroke-width: 2px;
+  }
+  
+  .card:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+  }
 
 .news{
     display: flex;
-    text-align: center;
+    align-items: center;
     padding: 15px;
-    margin:5px;
+    margin:2px;
     color: beige;
+    height: 20px;
 
+}
+.btn{
+    color: whitesmoke;
+    background-color:#000;
+    border-color: #000;
 }
 
 .maingaleria{
     display:flex;
     flex-direction: row;
    justify-content:center;
-   width: auto;
-  
+   background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+   
 }
 
-.galeria{
+    
+ .galeria{ 
     box-shadow: 10px 10px 10px;
     text-align: center;
     width: 100px;
     height: 100px;
     margin: 10px;
     border-radius: 10px;
- display: flex;
+    display: flex;
     flex-direction:row;
     background-color: black;
     justify-content: center;
@@ -88,23 +228,26 @@
 
 
 }
-.galeriaconten{
+.galeriaconten{ 
     text-decoration: none;
     color: antiquewhite;
     text-align: center;
-    
+    width: 50px;
+    height: 50px;
+    background-color: black;
+   text-align: center;
 }
 
 .general{
     justify-content: center;
     height:800px;
-    background-color:darkcyan;
-    background: #2C3E50;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     
 }
+
 .iconoscontacto{
    text-align: center;
    color: aliceblue;
@@ -114,15 +257,9 @@ footer{
     background-color: black;
     padding: 2px;
     height: auto;
-   
-}
-
-.principal{
-    display: flex;
-    margin-left: 150px; 
-
 
 }
+
 .containgraph{
     background-color: darkcyan;
     display:flex;
@@ -131,11 +268,12 @@ footer{
     height: 800px;
     padding: 20px;
     align-items: center;
-    background: #2C3E50;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
+
 .spacegraph{
     width: 800px;
     height: 600px;
@@ -163,12 +301,13 @@ background-color: black;
     height: 800px;
    justify-items:center;
    align-items: center;
-   background: #2C3E50;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: #000046;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    
  
 }
+
 .tarjeta1{
 text-align:center;
 width: 200px;
@@ -185,7 +324,8 @@ background-color: black;
     display: flex;
     flex-direction:column;
     
-    }
+}
+    
 .grid{
 width: 100%;
  height: 100%;
@@ -246,9 +386,11 @@ padding: 5px;
     flex-direction: column;
    align-items: center;
    padding: 50px;
-   background: #2C3E50;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
    
  
 }
@@ -263,9 +405,12 @@ padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #2C3E50;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+
     
 }
 .etiquetascontacto{
@@ -374,7 +519,7 @@ padding: 5px;
     .containgraph{
        display: none;
     }
+
+
+
 }
-
-
-
