@@ -4,20 +4,13 @@
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
     
-   
  }
 
  
-.header{
+ .header{
     padding: 30px;
-   background-color:darkcyan;
+   background-color:cadetblue;
    align-items: center;
-   background: #000046;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-   
-   
 }
 
 .cotizaciones{
@@ -25,7 +18,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     list-style-type: none;
     padding: 50px;
     width: auto;
-    height: 30px;
+    height: 40px;
     color: beige;
     text-align: left;
     justify-content: center;
@@ -37,6 +30,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
 .cotizaciones-box{
     width: 100px;
     height: 20px;
+    text-align: center;
 }
 
 .fondologo{
@@ -48,18 +42,6 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     
 }
 
- .sizeemail{
-     width: 185px;
-     height: 20px;
-     text-align: center;
-     margin:5px;
- }
-.buttonfooter{
-width: 100px;
-height: 20px;
-font-size: small;
-text-align: center;
-}
 .nav{
     background-color:black;
     justify-content: center;
@@ -67,16 +49,28 @@ text-align: center;
 .nav-item{
     font-size: x-small;
 }
+.btn-info{
+    font-size: x-small;
+    width: 70px;
+    height: 24px;
+}
+.sizemail{
+    font-size: x-small;
+}
 
  main{
-    background: #000046;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background-color:cadetblue;
     font-family: 'Open Sans', sans-serif;
     width: auto;
     height: 800px;
   }
+  .news{
+      padding: 20px;
+      color: blanchedalmond;
+      align-content: center;
+      justify-content: left;
+  }
+
   
   .container {
     height: 800px;
@@ -184,80 +178,28 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     transition: 0.6s ease-out;
   }
 
-.news{
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    margin:2px;
-    color: beige;
-    height: 20px;
-
-}
-.btn{
-    color: whitesmoke;
-    background-color:#000;
-    border-color: #000;
-}
 
 .maingaleria{
     display:flex;
     flex-direction: row;
    justify-content:center;
-   background: #000046;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-   
-   
+   background-color: #000;
 }
 
-    
- .galeria{ 
-    box-shadow: 10px 10px 10px;
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction:row;
-    background-color: black;
-    justify-content: center;
-    margin-top: 20%;
-    align-items: center;
-
-
-}
-.galeriaconten{ 
-    text-decoration: none;
-    color: antiquewhite;
-    text-align: center;
-    width: 50px;
-    height: 50px;
-    background-color: black;
-   text-align: center;
-}
 
 .general{
     justify-content: center;
-    height:800px;
-    background: #000046;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    
+    height:auto;
+    background-color:cadetblue;
+    }
+.footer{
+    background-color: black;
+  
 }
 
 .iconoscontacto{
    text-align: center;
    color: aliceblue;
-   margin-bottom: 20px;
-}
-footer{
-    background-color: black;
-    padding: 2px;
-    height: auto;
-
 }
 
 .containgraph{
@@ -268,22 +210,22 @@ footer{
     height: 800px;
     padding: 20px;
     align-items: center;
-    background: #000046;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background-color: cadetblue;
 }
 
 .spacegraph{
     width: 800px;
     height: 600px;
-    background-color:black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    
+    background-color:whitesmoke;
+   margin: auto;
+   border-radius: 10px; 
 }
+.spaceinfo{
+    display: flex;
+    margin-left: 50px;
+}
+
+
 .idea{
 display: flex;
 
@@ -294,58 +236,44 @@ font-weight: bold;
 background-color: black;
 }
 
-.tarjetas{
+.grid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows:1fr 1fr ;
-    height: 800px;
+    grid-template-rows:1fr 1fr 1fr;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
    justify-items:center;
    align-items: center;
-   background: #000046;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   
- 
+    justify-items:center;
+    align-items: center;
+    background-color:blanchedalmond;
 }
-
-.tarjeta1{
-text-align:center;
-width: 200px;
-height: 200px;
-border-radius: 5px;
-list-style-type: none;
-justify-items: center;
-justify-self: center;
-text-decoration: none;
-color: beige;
-background-color: black;
-}
-.consulta{ 
-    display: flex;
-    flex-direction:column;
-    
-}
-    
-.grid{
-width: 100%;
- height: 100%;
- display: grid;
-    
-    
-}
-.navbiblio{
-display: flex;
-list-style-type: none;
-align-items: center;
-align-content: center;
-padding: 5px;
-
+.notice{
+    margin-top: auto;
+    margin-bottom: auto;
+   align-items: center;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    background-color: #000;
+    box-shadow: 5px;
+    border-radius: 25px;
+    align-content: center;
 
 }
+
 .descripcion{
     text-align: center;
     font-weight: bold;
-    padding: 20px;
+}
+.infobiblio{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine ;
+    margin: auto;
+   
 }
 
 .bibliocontain{
@@ -353,25 +281,14 @@ padding: 5px;
     margin: 45px;
     border-radius: 20px;
 }
-.navbiblioconten{
-    margin-left: auto;
-    margin-right: auto;
-    text-decoration: none;
-}
+
 .buttonbiblio{
     text-decoration: none;
 }
-.spaceinfo{
-    margin: 0px;
-    width:auto;
-    height: auto;
-    border: 1px solid black;
-    margin-left:auto;
-    margin-right: auto;
-}
+
 .containcontacto{
     width: auto;
-    height:100%;
+    height:auto;
     background-color:darkcyan;
     font-weight: bold;
 }
@@ -386,13 +303,7 @@ padding: 5px;
     flex-direction: column;
    align-items: center;
    padding: 50px;
-   background: #000046;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-   
- 
+   background-color:cadetblue;
 }
 .itemform{
     margin: 3px;
@@ -405,13 +316,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #000046;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-
-
-    
+    background-color: cadetblue;
 }
 .etiquetascontacto{
     padding: 30px;
@@ -443,6 +348,27 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
 
 /* TABLET al ser 1024, trabaja para la vista tablet y vista mobile */
 @media screen and (max-width:1024px){
+
+    .main{
+        width: auto;
+        height: auto;
+    }
+    .principal{
+        width: auto;
+        height: auto;   
+    }
+    .header{
+        width: auto;
+        height: auto;;   
+    }
+    .general{
+       width: auto;
+       height: auto;
+    }
+    .footer{ 
+        width:auto ;
+        height: auto;
+    }
     .cotizaciones{
         width: auto;
         height: auto;
@@ -457,13 +383,30 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     }
     .maingaleria{
         height: auto;
-        width: 100%;
+        width: auto;
     }
     .grid{
         width: 100%;
-         height: auto;
-         flex-wrap: wrap;
-         flex-direction: column;
+        height: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .spacegraph{
+        width: 700px;
+        height: 570px;
+    }
+    .container-fluid{
+        width: auto;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .navbiblioconten{
+        
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
     .nav{
         flex-direction: column;
@@ -472,54 +415,129 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
         height: auto;
     
     }
-     .containgraph{ 
+    
+      .containgraph{ 
         width: auto;
         height: auto;
         flex-direction: column;
         flex-wrap: wrap;
-    }
+      }
     
-    .tarjetas{
+      .tarjetas{
         grid-template-columns: repeat(2, 4fr);
         width: auto;
         height: auto;
        padding: 40px;
     
-    }
+      }
     
-     .news{ 
+      .news{  
         width: auto;
         height: auto;
         flex-direction: column;
         flex-wrap: wrap;
-    }
+        text-align: left;
+      }
      .redes{ 
         width: auto;
         height: auto;
        flex-direction: column;
        flex-wrap: wrap;
-    }
-    
+      }
+     .iconoscontacto{
+        width: auto;
+        height: auto;
+       flex-direction: column;
+       flex-wrap: wrap;
+     }
+     
 }
 
-@media screen and (max-width:600px)
-{
-    .tarjetas{
+@media screen and (max-width:600px){
+
+     .main{
+        width: auto;
+        height: auto;
+     }
+     .footer{
+        width:auto ;
+        height: auto;
+     }
+     .principal{
+        width: auto;
+        height: auto;   
+     }   
+     .header{
+        width: auto;
+        height: auto;;   
+     }
+    
+     .tarjetas{
         grid-template-columns: repeat(1, 1fr);
         width: auto;
         height: auto;
-    }
-    .navbiblio{ 
+        align-content: center;
+        text-align: center;
+        
+     }
+     .tarjeta1{
+        margin: 20px;
+        width: auto;
+        height: auto;
+     }
+    .spaceinfo{
+        display: none;
+        align-content:center ;
+     }
+     .spacegraph{
+        display: none;
+     }
+    
+     .general{
+        width: auto;
+        height: auto;
+     }
+     .navbiblio{ 
         width: auto;
         height: auto;
         flex-direction: column;
         flex-wrap: wrap;
-    }
+     }
    
-    .containgraph{
-       display: none;
+     .news{ 
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: left;
+       
+     }
+    
+
+     .sizemail{
+      width:auto;
+      height: auto;
+     }
+     .grid{
+        grid-template-columns: repeat(1, 1fr);
+        width: auto;
+        height: auto;
+        align-content: center;
+        text-align: center;
+     }
+     .itemform{
+      width: auto;
+      height: auto;
+      flex-direction: column;
+      flex-wrap: wrap;
+     }
+
+     .bar{
+        display: none;
+     }
+     .title{
+        font-size:small;
+     }
+     
+      
     }
-
-
-
-}
