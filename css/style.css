@@ -1,0 +1,423 @@
+/* TABLET al ser 1024, trabaja para la vista tablet y vista mobile */
+@media screen and (max-width: 1024px) {
+  .main {
+    width: auto;
+    height: auto; }
+  .principal {
+    width: auto;
+    height: auto; }
+  .header {
+    width: auto;
+    height: auto; }
+  .general {
+    width: auto;
+    height: auto; }
+  .footer {
+    width: auto;
+    height: auto; }
+  .cotizaciones {
+    width: auto;
+    height: auto;
+    flex-direction: column; }
+  .cotizaciones-box {
+    width: 60px;
+    height: 60px; }
+  .maingaleria {
+    height: auto;
+    width: auto; }
+  .grid {
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: column; }
+  .spacegraph {
+    width: 700px;
+    height: 570px; }
+  .container-fluid {
+    width: auto;
+    height: auto;
+    align-items: center;
+    text-align: center; }
+  .navbiblioconten {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column; }
+  .nav {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto; }
+  .containgraph {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .tarjetas {
+    grid-template-columns: repeat(2, 4fr);
+    width: auto;
+    height: auto;
+    padding: 40px; }
+  .news {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left; }
+  .redes {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .iconoscontacto {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap; } }
+
+@media screen and (max-width: 600px) {
+  .main {
+    width: auto;
+    height: auto; }
+  .footer {
+    width: auto;
+    height: auto; }
+  .principal {
+    width: auto;
+    height: auto; }
+  .header {
+    width: auto;
+    height: auto; }
+  .tarjetas {
+    grid-template-columns: repeat(1, 1fr);
+    width: auto;
+    height: auto;
+    align-content: center;
+    text-align: center; }
+  .tarjeta1 {
+    margin: 20px;
+    width: auto;
+    height: auto; }
+  .spaceinfo {
+    display: none;
+    align-content: center; }
+  .spacegraph {
+    display: none; }
+  .general {
+    width: auto;
+    height: auto; }
+  .navbiblio {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .news {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left; }
+  .sizemail {
+    width: auto;
+    height: auto; }
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    width: auto;
+    height: auto;
+    align-content: center;
+    text-align: center; }
+  .itemform {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .bar {
+    display: none; }
+  .title {
+    font-size: small; } }
+
+main {
+  background-color: cadetblue;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: auto;
+  height: 800px; }
+
+.container {
+  height: 800px;
+  width: auto;
+  top: 60px;
+  left: calc(50% - 300px);
+  display: flex;
+  align-items: center; }
+
+.titlestyle {
+  text-decoration: none;
+  color: blanchedalmond; }
+
+.card {
+  display: flex;
+  height: 280px;
+  width: 200px;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 0px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.card:not(:first-child) {
+  margin-left: -50px; }
+
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out; }
+
+.card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out; }
+
+.title {
+  color: white;
+  font-weight: 300;
+  position: absolute;
+  left: 20px;
+  top: 15px; }
+
+.bar {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  height: 5px;
+  width: 150px; }
+
+.emptybar {
+  background-color: #2e3033;
+  width: 100%;
+  height: 100%; }
+
+.filledbar {
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+  width: 0px;
+  height: 100%;
+  background: #009ad9;
+  background: linear-gradient(90deg, #009ad9 0%, #d99300 65%, #ffba00 100%);
+  transition: 0.6s ease-out; }
+
+.card:hover .filledbar {
+  width: 120px;
+  transition: 0.4s ease-out; }
+
+.circle {
+  position: absolute;
+  top: 150px;
+  left: calc(50% - 60px); }
+
+.stroke {
+  stroke: white;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 360;
+  transition: 0.6s ease-out; }
+
+svg {
+  fill: #17141d;
+  stroke-width: 2px; }
+
+.card:hover .stroke {
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out; }
+
+.general {
+  justify-content: center;
+  height: auto;
+  background-color: cadetblue; }
+
+.containgraph {
+  background-color: darkcyan;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 800px;
+  padding: 20px;
+  align-items: center;
+  background-color: cadetblue; }
+
+.spacegraph {
+  width: 800px;
+  height: 600px;
+  background-color: whitesmoke;
+  margin: auto;
+  border-radius: 10px; }
+
+.spaceinfo {
+  display: flex;
+  margin-left: 50px; }
+
+.descripcion {
+  text-align: center;
+  font-weight: bold; }
+
+.infobiblio {
+  display: flex;
+  width: 100%;
+  height: 800px;
+  background-color: aquamarine;
+  margin: auto; }
+
+.bibliocontain {
+  background-color: black;
+  margin: 45px;
+  border-radius: 20px; }
+
+.buttonbiblio {
+  text-decoration: none; }
+
+.containcontacto {
+  width: auto;
+  height: auto;
+  background-color: darkcyan;
+  font-weight: bold; }
+
+.formulario {
+  color: black;
+  align-items: center; }
+
+.formulariocontain {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-color: cadetblue; }
+
+.itemform {
+  margin: 3px; }
+
+.botonenviar {
+  width: 70px;
+  height: 25px; }
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue; }
+
+.etiquetascontacto {
+  padding: 30px; }
+
+.areagraficos {
+  display: flex;
+  width: 700px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black; }
+
+.selectcoin {
+  display: flex;
+  flex-direction: column;
+  background-color: deeppink;
+  align-content: flex-start; }
+
+.Sharegraph {
+  display: flex;
+  flex-direction: column;
+  background-color: darkcyan; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box; }
+
+.header {
+  padding: 30px;
+  background-color: cadetblue;
+  align-items: center; }
+
+.cotizaciones {
+  display: flex;
+  list-style-type: none;
+  padding: 50px;
+  width: auto;
+  height: 40px;
+  color: beige;
+  text-align: left;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 0px; }
+
+.cotizaciones-box {
+  width: 100px;
+  height: 20px;
+  text-align: center; }
+
+.fondologo {
+  width: 150px;
+  border-radius: 100px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto; }
+
+.sizemail {
+  font-size: x-small; }
+
+.nav {
+  background-color: black;
+  justify-content: center; }
+
+.nav-item {
+  font-size: x-small; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-items: center;
+  align-items: center;
+  justify-items: center;
+  align-items: center;
+  background-color: blanchedalmond; }
+
+.notice {
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  margin: 10px;
+  width: auto;
+  height: auto;
+  background-color: #000;
+  box-shadow: 5px;
+  border-radius: 25px;
+  align-content: center; }
+
+.footer {
+  background-color: black; }
+
+.iconoscontacto {
+  text-align: center;
+  color: aliceblue; }
+
+.news {
+  padding: 20px;
+  color: blanchedalmond;
+  align-content: center;
+  justify-content: left; }
+
+.sizemail {
+  font-size: x-small; }
+
+.btn-info {
+  font-size: x-small;
+  width: 70px;
+  height: 24px; }
