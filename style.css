@@ -355,7 +355,9 @@ background-color: black;
     }
     .principal{
         width: auto;
-        height: auto;   
+        height: auto;  
+        align-items: center; 
+        align-content: center;  
     }
     .header{
         width: auto;
@@ -373,21 +375,21 @@ background-color: black;
         width: auto;
         height: auto;
         flex-direction: column;
-    
+        align-content: center; 
     }
     .cotizaciones-box{
         width: 60px;
         height:60px;
-        
-
+        align-items: center; 
+        align-content: center; 
     }
     .maingaleria{
         height: auto;
         width: auto;
     }
     .grid{
-        width: 100%;
-        height: 100%;
+        width: auto;
+        height: auto;
         flex-wrap: wrap;
         flex-direction: column;
     }
@@ -428,6 +430,7 @@ background-color: black;
         width: auto;
         height: auto;
        padding: 40px;
+       align-content: center; 
     
       }
     
@@ -437,6 +440,7 @@ background-color: black;
         flex-direction: column;
         flex-wrap: wrap;
         text-align: left;
+        align-items: center; 
       }
      .redes{ 
         width: auto;
@@ -466,6 +470,8 @@ background-color: black;
      .principal{
         width: auto;
         height: auto;   
+        align-items: center; 
+        align-content: center; 
      }   
      .header{
         width: auto;
@@ -481,9 +487,10 @@ background-color: black;
         
      }
      .tarjeta1{
-        margin: 20px;
+        
         width: auto;
         height: auto;
+        align-content: center; 
      }
     .spaceinfo{
         display: none;
@@ -496,6 +503,7 @@ background-color: black;
      .general{
         width: auto;
         height: auto;
+        align-content: center; 
      }
      .navbiblio{ 
         width: auto;
@@ -510,7 +518,7 @@ background-color: black;
         flex-direction: column;
         flex-wrap: wrap;
         text-align: left;
-       
+        align-content: center; 
      }
     
 
