@@ -99,7 +99,7 @@
     left: 0px;
     margin-left: auto;
     margin-right: auto;
-    
+
   }
   
   .card:not(:first-child) {
@@ -466,6 +466,34 @@ background-color: black;
      .footer{
         width:auto ;
         height: auto;
+     }
+     .circle{
+        width: auto;
+        height: auto;
+     }
+     .card{
+         flex-direction: column;
+     }
+     .title{
+         width: auto;
+         height: auto;
+     }
+     .bar{
+        width: auto;
+        height: auto;
+        flex-direction: column;
+     }
+     .emptybar{
+        width: auto;
+        height: auto;
+     }
+     .filledbar{
+        width: auto;
+        height: auto;
+     }
+     .stroke{
+         width: auto;
+         height: auto;
      }
      .principal{
         width: auto;
