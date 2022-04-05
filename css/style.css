@@ -1,4 +1,15 @@
 /* TABLET al ser 1024, trabaja para la vista tablet y vista mobile */
+.btn-info {
+  width: 70px;
+  font-size: x-small;
+  height: 24px; }
+
+.container {
+  height: 800px;
+  width: auto;
+  top: 60px; }
+  
+
 @media screen and (max-width: 1024px) {
   .main {
     width: auto;
@@ -257,11 +268,8 @@ svg {
 
 .spaceinfo {
   display: flex;
-  margin-left: 50px; }
-
-.descripcion {
-  text-align: center;
-  font-weight: bold; }
+  margin-left: 50px; 
+}
 
 .infobiblio {
   display: flex;
@@ -342,6 +350,7 @@ svg {
   background-color: cadetblue;
   align-items: center; }
 
+
 .cotizaciones {
   display: flex;
   list-style-type: none;
@@ -387,8 +396,9 @@ svg {
   align-items: center;
   justify-items: center;
   align-items: center;
-  background-color: blanchedalmond; }
-
+  background-color: blanchedalmond; 
+}
+  
 .notice {
   margin-top: auto;
   margin-bottom: auto;

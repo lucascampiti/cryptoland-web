@@ -5,9 +5,29 @@
     box-sizing: border-box;
     
  }
+ .tutoriales{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 333px;
+    
+ }
+
+.cursos{
+    display: flex;
+    flex-direction: column;
+    background-color: violet;
+    height: 333px;
+}
+.libros{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    height: 333px;
+}
 
  
- .header{
+.header{
     padding: 30px;
    background-color:cadetblue;
    align-items: center;
@@ -49,11 +69,7 @@
 .nav-item{
     font-size: x-small;
 }
-.btn-info{
-    font-size: x-small;
-    width: 70px;
-    height: 24px;
-}
+
 .sizemail{
     font-size: x-small;
 }
@@ -71,7 +87,7 @@
       justify-content: left;
   }
 
-  
+
   .container {
     height: 800px;
     width: auto;
