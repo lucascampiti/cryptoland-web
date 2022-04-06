@@ -75,14 +75,16 @@
 }
 
 .libros{
-  background-color: black;
+  background-color: white;
   height: 333px;
+  padding-bottom: 10px;
 }
 .sizevideo{
     display: flex;
     width:400px;
  height:300px;
 }
+
  
 .header{
     padding: 30px;
@@ -321,7 +323,7 @@ background-color: black;
    align-items: center;
     justify-items:center;
     align-items: center;
-    background-color:blanchedalmond;
+    background-color:cadetblue;
 }
 .notice{
     margin-top: auto;
@@ -760,6 +762,7 @@ background-color: black;
     .sizeimg1{
         width: 212px;
         height: 260px;
+        padding-bottom: 15px;
     }
    
     .defi{
