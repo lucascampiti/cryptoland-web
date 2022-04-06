@@ -14,7 +14,7 @@
  }
  .video{
    display: flex;
-   padding: 50px;
+   padding: 10px;
    margin: auto;
  }
 
@@ -77,6 +77,11 @@
 .libros{
   background-color: black;
   height: 333px;
+}
+.sizevideo{
+    display: flex;
+    width:400px;
+ height:300px;
 }
  
 .header{
@@ -736,15 +741,17 @@ background-color: black;
        
     }
     .video{
-        width: auto;
+    width: auto;
      height: auto;
      display: flex;
     flex-wrap: wrap;
     }
     .sizevideo{
+        display: flex;
+        flex-wrap: wrap;
         width: auto;
         height: auto;
-        margin: auto;
+        align-items: center;
     }
     .sizeimg{
         width: auto;
