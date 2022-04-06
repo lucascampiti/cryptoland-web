@@ -1,98 +1,116 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
-    
- }
- 
- .contenedor{
-     height: 500px;
-     background-color: white;
-     display: flex;
-    
- }
- .video{
-   display: flex;
-   padding: 10px;
-   margin: auto;
- }
 
- .defi{
-     display: flex;
-    color: blueviolet;
-    margin:auto;
+}
+
+.contenedor {
+    height: 500px;
+    background-color: white;
+    display: flex;
+
+}
+
+.video {
+    display: flex;
     padding: 10px;
-    
- }
- .h1videos{
+    margin: auto;
+}
+
+.defi {
+    display: flex;
+    color: blueviolet;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.h1videos {
     text-align: center;
     align-content: center;
-    background-color:white;
+    background-color: white;
     height: 40px;
     font-size: 30px;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
- }
- .h1libros{
-     text-align: center;
-     background-color:white;
-     height: 40px;
-     font-size: 30px;
-     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     color: black;
- }
- .libros{
+}
+
+.h1libros {
+    text-align: center;
+    background-color: white;
+    height: 40px;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+.libros {
     display: flex;
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
- }
- .descripcionlibro{
+}
+
+.descripcionlibro {
     display: flex;
     color: blueviolet;
-    margin:auto;
+    margin: auto;
     padding: 20px;
- }
- .textbook{
-     padding: 10px;
- }
- .libroelder{
+}
+
+.textbook {
+    padding: 10px;
+}
+
+.libroelder {
     display: flex;
     padding: 50px;
     margin: auto;
- }
- .download{
-     text-decoration: none;
-     color: white;
- }
- 
-.cursos{
+}
+
+.download {
+    text-decoration: none;
+    color: white;
+}
+
+.cursos {
     display: flex;
     flex-direction: column;
     background-color: violet;
     height: 333px;
 }
 
-.libros{
-  background-color: white;
-  height: 333px;
-  padding-bottom: 10px;
+.libros {
+    background-color: white;
+    height: 333px;
+    padding-bottom: 10px;
 }
-.sizevideo{
+
+.sizevideo {
     display: flex;
-    width:400px;
- height:300px;
+    width: 400px;
+    height: 300px;
 }
 
- 
-.header{
+.resumengraficos {
+    color: #000;
+    font-family: cursive;
+    font-style: oblique;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+
+.header {
     padding: 30px;
-   background-color:cadetblue;
-   align-items: center;
+    background-color: cadetblue;
+    align-items: center;
 }
 
-.cotizaciones{
+.cotizaciones {
     display: flex;
     list-style-type: none;
     padding: 50px;
@@ -104,70 +122,74 @@
     border-radius: 10px;
     margin: 0px;
 
-}  
+}
 
-.cotizaciones-box{
+.cotizaciones-box {
     width: 100px;
     height: 20px;
     text-align: center;
 }
 
-.fondologo{
-    width:150px;
+.fondologo {
+    width: 150px;
     border-radius: 100px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
-.nav{
-    background-color:black;
+.nav {
+    background-color: black;
     justify-content: center;
 }
-.nav-item{
+
+.nav-item {
     font-size: x-small;
 }
 
-.sizemail{
+.sizemail {
     font-size: x-small;
 }
 
- main{
-    background-color:cadetblue;
+main {
+    background-color: cadetblue;
     font-family: 'Open Sans', sans-serif;
     width: auto;
     height: 800px;
-  }
-  .news{
-      padding: 20px;
-      color: blanchedalmond;
-      align-content: center;
-      justify-content: left;
-  }
+}
+
+.news {
+    padding: 20px;
+    color: blanchedalmond;
+    align-content: center;
+    justify-content: left;
+}
 
 
-  .container {
+.container {
     height: 800px;
     width: auto;
     top: 60px;
     left: calc(50% - 300px);
     display: flex;
     align-items: center;
-  
-  }
-  .titlestyle{
-      text-decoration: none;
-      color: blanchedalmond;
-  }
-  .card {
+
+}
+
+.titlestyle {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.card {
     display: flex;
     height: 280px;
     width: 200px;
     background-color: black;
     border-radius: 10px;
     box-shadow: -1rem 0 3rem #000;
-  /*   margin-left: -50px; */
+    /*   margin-left: -50px; */
     transition: 0.4s ease-out;
     margin-top: auto;
     margin-bottom: auto;
@@ -175,144 +197,146 @@
     margin-left: auto;
     margin-right: auto;
 
-  }
-  
+}
 
-  .card:not(:first-child) {
-      margin-left: -50px;
-  }
-  
-  .card:hover {
+
+.card:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card:hover {
     transform: translateY(-20px);
     transition: 0.4s ease-out;
-  }
-  
-  .card:hover ~ .card {
+}
+
+.card:hover~.card {
     position: relative;
     left: 50px;
     transition: 0.4s ease-out;
-  }
-  
-  .title {
+}
+
+.title {
     color: white;
     font-weight: 300;
     position: absolute;
     left: 20px;
     top: 15px;
-  }
-  
-  .bar {
+}
+
+.bar {
     position: absolute;
     top: 100px;
     left: 20px;
     height: 5px;
     width: 150px;
-  }
-  
-  .emptybar {
+}
+
+.emptybar {
     background-color: #2e3033;
     width: 100%;
     height: 100%;
-  }
-  
-  .filledbar {
+}
+
+.filledbar {
     position: absolute;
     top: 0px;
     z-index: 3;
     width: 0px;
     height: 100%;
-    background: rgb(0,154,217);
-    background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+    background: rgb(0, 154, 217);
+    background: linear-gradient(90deg, rgba(0, 154, 217, 1) 0%, rgba(217, 147, 0, 1) 65%, rgba(255, 186, 0, 1) 100%);
     transition: 0.6s ease-out;
-  }
-  
-  .card:hover .filledbar {
+}
+
+.card:hover .filledbar {
     width: 120px;
     transition: 0.4s ease-out;
-  }
-  
-  .circle {
+}
+
+.circle {
     position: absolute;
     top: 150px;
     left: calc(50% - 60px);
-  }
-  
-  .stroke {
+}
+
+.stroke {
     stroke: white;
     stroke-dasharray: 360;
     stroke-dashoffset: 360;
     transition: 0.6s ease-out;
-  }
-  
-  svg {
+}
+
+svg {
     fill: #17141d;
     stroke-width: 2px;
-  }
-  
-  .card:hover .stroke {
+}
+
+.card:hover .stroke {
     stroke-dashoffset: 100;
     transition: 0.6s ease-out;
-  }
+}
 
 
-.maingaleria{
-    display:flex;
+.maingaleria {
+    display: flex;
     flex-direction: row;
-   justify-content:center;
-   background-color: #000;
-}
-
-
-.general{
-    height: 900px;
     justify-content: center;
-    background-color:cadetblue;
+    background-color: #000;
 }
 
-.footer{
+
+.general {
+    height: auto;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+.footer {
     background-color: black;
-  
+width: auto;
+height: auto;
 }
 
-.iconoscontacto{
-   text-align: center;
-   color: aliceblue;
+.iconoscontacto {
+    text-align: center;
+    color: aliceblue;
 }
 
 
-.spaceinfo{
+.spaceinfo {
     display: flex;
     margin-left: 50px;
 }
 
 
-.idea{
-display: flex;
+.idea {
+    display: flex;
 
-margin: 50px;
-text-align: center;
-color: beige;
-font-weight: bold;
-background-color: black;
+    margin: 50px;
+    text-align: center;
+    color: beige;
+    font-weight: bold;
+    background-color: black;
 }
 
-.grid{
-    display:grid;
+.grid {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows:1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     height: auto;
     margin-top: auto;
     margin-bottom: auto;
-   justify-items:center;
-   align-items: center;
-    justify-items:center;
+    justify-items: center;
     align-items: center;
-    background-color:cadetblue;
+    justify-items: center;
+    align-items: center;
+    background-color: cadetblue;
 }
-.notice{
+
+.notice {
     margin-top: auto;
     margin-bottom: auto;
-   align-items: center;
+    align-items: center;
     margin: 10px;
     width: auto;
     height: auto;
@@ -323,65 +347,73 @@ background-color: black;
 
 }
 
-.descripcion{
+.descripcion {
     text-align: center;
     font-weight: bold;
 }
-.infobiblio{
+
+.infobiblio {
     display: flex;
     width: 100%;
     height: 800px;
-    background-color: aquamarine ;
+    background-color: aquamarine;
     margin: auto;
-   
+
 }
 
-.bibliocontain{
+.bibliocontain {
     background-color: black;
     margin: 45px;
     border-radius: 20px;
 }
 
-.buttonbiblio{
+.buttonbiblio {
     text-decoration: none;
 }
 
-.containcontacto{
+.containcontacto {
     width: auto;
-    height:auto;
-    background-color:darkcyan;
+    height: auto;
+    background-color: darkcyan;
     font-weight: bold;
 }
-.formulario{
-    color:black;
-    align-items:center;
+
+.formulario {
+    color: black;
+    align-items: center;
 
 }
-.formulariocontain{
+
+.formulariocontain {
     align-items: center;
-    display:flex;
+    display: flex;
     flex-direction: column;
-   align-items: center;
-   padding: 50px;
-   background-color:cadetblue;
+    align-items: center;
+    padding: 50px;
+    background-color: cadetblue;
 }
-.itemform{
+
+.itemform {
     margin: 3px;
 }
-.botonenviar{
+
+.botonenviar {
     width: 70px;
     height: 25px;
 }
-.redes{
+
+.redes {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: cadetblue;
 }
-.etiquetascontacto{
+
+.etiquetascontacto {
     padding: 30px;
 }
-.areagraficos{
+
+.areagraficos {
     display: flex;
     width: 500px;
     height: 600px;
@@ -389,13 +421,15 @@ background-color: black;
     margin-right: auto;
     border: 1px solid black;
 }
-.Sharegraph{
+
+.Sharegraph {
     display: flex;
-    flex-direction:column;
-    background-color:darkcyan;
-  
+    flex-direction: column;
+    background-color: darkcyan;
+
 }
-.tradingview{
+
+.tradingview {
     display: flex;
     flex-direction: column;
     width: 800px;
@@ -404,446 +438,509 @@ background-color: black;
 
 }
 
-#tradingview_548a1{
+#tradingview_548a1 {
     align-content: center;
-    height: 700px;
+    height: 470px;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 5px;
+    padding-bottom: 30px;
 }
 
 
 
 
 /* TABLET al ser 1024, trabaja para la vista tablet y vista mobile */
-@media screen and (max-width:1024px){
+@media screen and (max-width:1024px) {
 
-    .main{
+    .main {
         width: auto;
         height: auto;
     }
-    .principal{
+
+    .principal {
         width: auto;
-        height: auto;  
-        align-items: center; 
-        align-content: center;  
+        height: auto;
+        align-items: center;
+        align-content: center;
     }
-    .header{
+
+    .header {
         width: auto;
-        height: auto;   
-    }
-    .general{
-       width: auto;
-       height: auto;
-    }
-    .footer{ 
-        width:auto ;
         height: auto;
     }
-    .cotizaciones{
+
+    .general {
+        width: auto;
+        height: auto;
+    }
+
+    .footer {
+        width: auto;
+        height: auto;
+    }
+
+    .cotizaciones {
         width: auto;
         height: auto;
         flex-direction: column;
-        align-content: center; 
+        align-content: center;
     }
-    .cotizaciones-box{
+
+    .cotizaciones-box {
         width: 60px;
-        height:60px;
-        align-items: center; 
-        align-content: center; 
+        height: 60px;
+        align-items: center;
+        align-content: center;
     }
-    .maingaleria{
+
+    .maingaleria {
         height: auto;
         width: auto;
     }
-    .grid{
+
+    .grid {
         width: auto;
         height: auto;
         flex-wrap: wrap;
         flex-direction: column;
     }
-    .spacegraph{
+
+    .spacegraph {
         width: 700px;
         height: 570px;
     }
-    .container-fluid{
+
+    .container-fluid {
         width: auto;
         height: auto;
         align-items: center;
         text-align: center;
     }
-    .navbiblioconten{
-        
+
+    .navbiblioconten {
+
         width: 100%;
         height: auto;
         flex-wrap: wrap;
         flex-direction: column;
     }
-    .nav{
+
+    .nav {
         flex-direction: column;
         flex-wrap: wrap;
         width: auto;
         height: auto;
-    
+
     }
-    
-      .containgraph{ 
+
+    .containgraph {
         width: auto;
         height: auto;
         flex-direction: column;
         flex-wrap: wrap;
-      }
-    
-      .tarjetas{
+    }
+
+    .tarjetas {
         grid-template-columns: repeat(2, 4fr);
         width: auto;
         height: auto;
-       padding: 40px;
-       align-content: center; 
-    
-      }
-    
-      .news{  
+        padding: 40px;
+        align-content: center;
+
+    }
+
+    .news {
         width: auto;
         height: auto;
         flex-direction: column;
         flex-wrap: wrap;
         text-align: left;
-        align-items: center; 
-      }
-     .redes{ 
-        width: auto;
-        height: auto;
-       flex-direction: column;
-       flex-wrap: wrap;
-      }
-     .iconoscontacto{
-        width: auto;
-        height: auto;
-       flex-direction: column;
-       flex-wrap: wrap;
-     }
-     .contenedor{
-        width: auto;
-     height: auto;
-       
+        align-items: center;
     }
-    .video{
-        width: auto;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-   
-    .defi{
-        width: auto;
-     height: auto;
-     display: flex;
-     flex-direction: column;
-     flex-wrap: wrap;
-    }
-    .h1videos{
-        width: auto;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .h1libros{
-        width: auto;
-     height: auto;
-     display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .libros{
-        width: auto;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .descripcionlibro{
-        width: auto;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .textbook{
-        width: auto;
-     height: auto;
-     display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .libroelder{
-        width: auto;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .download{
-        width: auto;
-     height: auto;
-     display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    
-   .cursos{
-    width: auto;
-    height: auto;
-    display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-   }
-   
-   .libros{
-     width: auto;
-     height: auto;
-     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-   }
-   #tradingview_548a1{
-    width: 650px;
-    height: 400px;
 
-   }
-   .tradingview{
-    width: auto;
-    height: auto;
-    display: flex;
-   flex-wrap: wrap;
-   margin-left: 10px;
-   margin-right: 10px;
-   }
-     
+    .redes {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .iconoscontacto {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .contenedor {
+        width: auto;
+        height: auto;
+
+    }
+
+    .video {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .defi {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .h1videos {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .h1libros {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .libros {
+        width: auto;
+        height: auto; 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .descripcionlibro {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .textbook {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .libroelder {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .download {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .cursos {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .libros {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #tradingview_548a1 {
+        width: 650px;
+        height: 400px;
+
+    }
+
+    .tradingview {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
 
-     .main{
+    .main {
         width: auto;
         height: auto;
-     }
-     .footer{
-        width:auto ;
-        height: auto;
-     }
-     .circle{
+    }
+
+    .footer {
         width: auto;
         height: auto;
-     }
-     .card{
-         flex-direction: column;
-     }
-     .title{
-         width: auto;
-         height: auto;
-     }
-     .bar{
+    }
+
+    .circle {
+        width: auto;
+        height: auto;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .title {
+        width: auto;
+        height: auto;
+    }
+
+    .bar {
         width: auto;
         height: auto;
         flex-direction: column;
-     }
-     .emptybar{
+    }
+
+    .emptybar {
         width: auto;
         height: auto;
-     }
-     .filledbar{
+    }
+
+    .filledbar {
         width: auto;
         height: auto;
-     }
-     .stroke{
-         width: auto;
-         height: auto;
-     }
-     .principal{
+    }
+
+    .stroke {
         width: auto;
-        height: auto;   
-        align-items: center; 
-        align-content: center; 
-     }   
-     .header{
+        height: auto;
+    }
+
+    .principal {
         width: auto;
-        height: auto;;   
-     }
-    
-     .tarjetas{
+        height: auto;
+        align-items: center;
+        align-content: center;
+    }
+
+    .header {
+        width: auto;
+        height: auto;
+        ;
+    }
+
+    .tarjetas {
         grid-template-columns: repeat(1, 1fr);
         width: auto;
         height: auto;
         align-content: center;
         text-align: center;
-        
-     }
-     .tarjeta1{
-        
+
+    }
+
+    .tarjeta1 {
+
         width: auto;
         height: auto;
-        align-content: center; 
-     }
-    .spaceinfo{
+        align-content: center;
+    }
+
+    .spaceinfo {
         display: none;
-        align-content:center ;
-     }
-     .spacegraph{
+        align-content: center;
+    }
+
+    .spacegraph {
         display: none;
-     }
-    
-     .general{
+    }
+
+    .general {
         width: auto;
         height: auto;
-        align-content: center; 
-     }
-     .navbiblio{ 
+        align-content: center;
+    }
+
+    .navbiblio {
         width: auto;
         height: auto;
         flex-direction: column;
         flex-wrap: wrap;
-     }
-   
-     .news{ 
+    }
+
+    .news {
         width: auto;
         height: auto;
         flex-direction: column;
         flex-wrap: wrap;
         text-align: left;
-        align-content: center; 
-     }
-    
+        align-content: center;
+    }
 
-     .sizemail{
-      width:auto;
-      height: auto;
-     }
-     .grid{
+
+    .sizemail {
+        width: auto;
+        height: auto;
+    }
+
+    .grid {
         grid-template-columns: repeat(1, 1fr);
         width: auto;
         height: auto;
         align-content: center;
         text-align: center;
-     }
-     .itemform{
-      width: auto;
-      height: auto;
-      flex-direction: column;
-      flex-wrap: wrap;
-     }
+    }
 
-     .bar{
+    .itemform {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .bar {
         display: none;
-     }
-     .title{
-        font-size:small;
-     }
-     .contenedor{
+    }
+
+    .title {
+        font-size: small;
+    }
+
+    .contenedor {
         width: auto;
         height: auto;
         display: flex;
-       flex-wrap: wrap;
-       
+        flex-wrap: wrap;
+
     }
-    .video{
-    width: auto;
-     height: auto;
-     display: flex;
-    flex-wrap: wrap;
+
+    .video {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
     }
-    .sizevideo{
+
+    .sizevideo {
         display: flex;
         flex-wrap: wrap;
         width: auto;
         height: auto;
         align-items: center;
     }
-    .sizeimg{
+
+    .sizeimg {
         width: auto;
         height: auto;
     }
-    .sizeimg1{
+
+    .sizeimg1 {
         width: 212px;
         height: 260px;
         padding-bottom: 15px;
     }
-   
-    .defi{
-        width: auto;
-        height: auto;
-        display: flex;
-       flex-wrap: wrap;
-    }
-    .h1videos{
-        width: auto;
-     height: auto;
-     display: flex;
-    flex-wrap: wrap;
-    }
-    .h1libros{
-        width: auto;
-        height: auto;
-        display: flex;
-       flex-wrap: wrap;
-    }
-    .libros{
-        width: auto;
-     height: auto;
-     display: flex;
-    flex-wrap: wrap;
-    }
-    .descripcionlibro{
-        width: auto;
-     height: auto;
-     display: flex;
-    flex-wrap: wrap;
-    }
-    .textbook{
-        width: auto;
-        height: auto;
-        display: flex;
-       flex-wrap: wrap;
-    }
-    .libroelder{
-        width: auto;
-     height: auto;
-     display: flex;
-    flex-wrap: wrap;
-    }
-    .download{
-     width: auto;
-     height: auto;
-     display: flex;
-    flex-wrap: wrap;
-    }
-    
-   .cursos{
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-   }
-   
-   .libros{
-     width: auto;
-     height: auto;
-     display: flex;
-    flex-wrap: wrap;
-   }
-   #tradingview_548a1{
-    width: auto;
-    height: auto;
 
-   }
-   .tradingview{
-    width: auto;
-    height: auto;
-    display: flex;
-   flex-wrap: wrap;
-   margin-left: 10px;
-   margin-right: 10px;
-   }
-      
+    .defi {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
     }
+
+    .h1videos {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .h1libros {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .libros {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .descripcionlibro {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .textbook {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .libroelder {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .download {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cursos {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .libros {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #tradingview_548a1 {
+        width: 300px;
+        height: 500px;
+
+    }
+
+    .resumengraficos {
+        width: auto;
+        height: auto;
+    }
+
+    .tradingview {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
