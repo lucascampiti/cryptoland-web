@@ -264,10 +264,11 @@
 
 
 .general{
+    height: 900px;
     justify-content: center;
-    height:auto;
     background-color:cadetblue;
-    }
+}
+
 .footer{
     background-color: black;
   
@@ -278,24 +279,7 @@
    color: aliceblue;
 }
 
-.containgraph{
-    background-color: darkcyan;
-    display:flex;
-    flex-direction:column;
-    width:auto;
-    height: 800px;
-    padding: 20px;
-    align-items: center;
-    background-color: cadetblue;
-}
 
-.spacegraph{
-    width: 800px;
-    height: 600px;
-    background-color:whitesmoke;
-   margin: auto;
-   border-radius: 10px; 
-}
 .spaceinfo{
     display: flex;
     margin-left: 50px;
@@ -405,18 +389,26 @@ background-color: black;
     margin-right: auto;
     border: 1px solid black;
 }
-.selectcoin{
-    display: flex;
-    flex-direction: column;
-    background-color:deeppink;
-    align-content: flex-start;
-    
-}
 .Sharegraph{
     display: flex;
     flex-direction:column;
     background-color:darkcyan;
-    
+  
+}
+.tradingview{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+
+}
+
+#tradingview_548a1{
+    align-content: center;
+    height: 700px;
+    margin: auto;
+    padding-top: 50px;
 }
 
 
@@ -437,7 +429,7 @@ background-color: black;
     }
     .header{
         width: auto;
-        height: auto;;   
+        height: auto;   
     }
     .general{
        width: auto;
@@ -614,6 +606,19 @@ background-color: black;
      display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+   }
+   #tradingview_548a1{
+    width: 650px;
+    height: 400px;
+
+   }
+   .tradingview{
+    width: auto;
+    height: auto;
+    display: flex;
+   flex-wrap: wrap;
+   margin-left: 10px;
+   margin-right: 10px;
    }
      
 }
@@ -826,6 +831,19 @@ background-color: black;
      height: auto;
      display: flex;
     flex-wrap: wrap;
+   }
+   #tradingview_548a1{
+    width: auto;
+    height: auto;
+
+   }
+   .tradingview{
+    width: auto;
+    height: auto;
+    display: flex;
+   flex-wrap: wrap;
+   margin-left: 10px;
+   margin-right: 10px;
    }
       
     }

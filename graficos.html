@@ -50,23 +50,34 @@
    </header>
 
    <main class="general">
-      <div class="containgraph">
-         <div class="spacegraph" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-            <form action="">
-               <select class="selectcoin" name="" id="">
-                  <option value="">
-                     btc/usdt
-                  </option>
-                  <option value="">
-                     eth/usdt
-                  </option>
-                  <option value="">
-                     rose/usdt
-                  </option>
-               </select>
-            </form>
-         </div>
-      </div>
+    <section class="tradingview">
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+   <div id="tradingview_548a1"></div>
+   <div class="tradingview-widget-copyright"><a href="https://es.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Gráfico</span></a> por TradingView</div>
+   <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+   <script type="text/javascript">
+   new TradingView.widget(
+   {
+   "autosize": true,
+   "symbol": "NASDAQ:AAPL",
+   "interval": "D",
+   "timezone": "Etc/UTC",
+   "theme": "dark",
+   "style": "1",
+   "locale": "es",
+   "toolbar_bg": "#f1f3f6",
+   "enable_publishing": true,
+   "withdateranges": true,
+   "hide_side_toolbar": false,
+   "allow_symbol_change": true,
+   "container_id": "tradingview_548a1"
+ }
+   );
+   </script>
+ </div>
+ <!-- TradingView Widget END -->
+    </section>
    </main>
    <footer class="footer">
       <div class="news">
