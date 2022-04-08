@@ -20,16 +20,6 @@
    <header class="header">
       <div class="pincipal"><img class="fondologo" data-aos="flip-left" src="./imagenes/logo/CRYPTOLAND (1).png" alt="logo">
       </div>
-      <div>
-         <ul class="cotizaciones">
-            <li class="cotizaciones-box">BTC</li><input class="cotizaciones-box" type="url">
-            <li class="cotizaciones-box">ETH</li><input class="cotizaciones-box" type="url">
-            <li class="cotizaciones-box">FTM</li><input class="cotizaciones-box" type="url">
-            <li class="cotizaciones-box">ROSE</li><input class="cotizaciones-box" type="url">
-            <li class="cotizaciones-box">KDA</li><input class="cotizaciones-box" type="url">
-
-         </ul>
-      </div>
 
       <ul class="nav nav-tabs">
          <li class="nav-item">
@@ -49,32 +39,45 @@
          </li>
       </ul>
    </header>
-   <main class="containcontacto">
-      <div class="formulario">
-         <form class="formulariocontain" action="">
-            <label class="itemform" for="nombre">Nombre</label>
-            <input class="itemform" type="text" id="nombre">
-            <label class="itemform" for="Apellido">Apellido</label>
-            <input class="itemform" type="text" id="apellido">
-            <label class="itemform" for="email">Correo Electronico</label>
-            <input class="itemform" type="text" id=" email">
-            <textarea class="itemform" placeholder="Dejanos tu consulta..." name="" id="" cols="30"
-               rows="10"></textarea>
-            <button type="button" class="btn btn-primary btn-sm">enviar</button>
+   <main>
+      <section class="containcontacto">
+         <form action="" class="form">
+            <div class="contact">
+               <h1 class="formu">Contactanos</h1>
+               <div class="grupo">
+                  <label>Nombre</label>
+                  <input class="text" type="text" name="" id=""><span class="barra"></span>
+               </div>
+               <div class="grupo">
+                  <label>Apellido</label>
+                  <input class="text" class="text" type="text" name="" id=""><span class="barra"></span>
+               </div>
+               <div class="grupo">
+                  <label>Email</label>
+                  <input  class="text" type="email" name="" id=""><span class="barra"></span>
+               </div>
+               <div class="grupo">
+                  <textarea class="text" name="" id="" rows="3"></textarea><span class="barra"></span>
+               </div>
+               <button type="submit" class="btn btn-outline-light">Enviar</button>
+            </div>
          </form>
-      </div>
+      </section>
+
+      <section class="containcontacto1">
       <div class="redes">
-         <a class="etiquetascontacto" data-aos="fade-up" data-aos-duration="3000" target="blank_"
+         <a class="etiquetascontacto" data-aos="zoom-in-up" data-aos-duration="3000" target="blank_"
             href="https://es.tradingview.com/"><img src="./imagenes/contacto/gorjeo.png" alt="trading">
          </a>
-         <a class="etiquetascontacto" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+         <a class="etiquetascontacto" data-aos="zoom-in-up" data-aos-duration="1500"
             target="blank_" href="https://es.tradingview.com/"><img src="./imagenes/contacto/telegrama.png"
                alt="trading">
          </a>
-         <a class="etiquetascontacto" data-aos="fade-up" target="blank_" href="https://web.whatsapp.com/"><img
+         <a class="etiquetascontacto" data-aos="zoom-in-up" target="blank_" href="https://web.whatsapp.com/"><img
                src="./imagenes/contacto/whatsapp.png" alt="trading">
          </a>
       </div>
+   </section>
 
    </main>
    <footer class="footer">
@@ -82,7 +85,7 @@
          <form action="">
             <label for="">Newsletter</label>
             <input type="text" class="sizemail" placeholder="Suscribirme">
-            <button type="button" class="btn btn-info">Ok</button>
+            <button type="submit" class="btn btn-info">Ok</button>
          </form>
       </div>
 
