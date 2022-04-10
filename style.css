@@ -53,6 +53,7 @@ video{
    
 }
 
+
 .h1videos {
     padding-left: 50px;
     padding-right: 50px; 
@@ -138,54 +139,42 @@ video{
     text-align: center;
 }
 .p1{
-    padding-left: 220px;
-    padding-right: 220px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: justify;
-}
-
-
-.header {
-    padding: 30px;
-    background-color: black;
-    align-items: center;
-}
-
-.cotizaciones {
-    display: flex;
-    list-style-type: none;
-    padding: 50px;
     width: auto;
-    height: 40px;
-    color: beige;
-    text-align: left;
-    justify-content: center;
-    border-radius: 10px;
-    margin: 0px;
-
-}
-
-.cotizaciones-box {
-    width: 100px;
-    height: 20px;
+    height: auto;
+    align-content: center;
+    padding: 20px;
     text-align: center;
 }
 
-.fondologo {
-    width: 150px;
-    border-radius: 100px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: -1rem 0 1rem violet;
 
+.header { 
+   
+    align-items: center;
+    background-color: black;
+}
+
+.principal{
+    padding: 30px;
+    heig
+}
+
+.fondologo {
+    display:flex;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+  margin: auto;
+    box-shadow: -3px 0 1px violet;
+    
 }
 
 .nav {
+    padding-top: 50px;
+    align-content: center;
     background-color: black;
     justify-content: center;
-    margin: 60px;
+    
 }
 
 .nav-item {
@@ -201,6 +190,20 @@ main {
     font-family: 'Open Sans', sans-serif;
     width: auto;
     height: 800px;
+}
+#btn{
+align-content: center;
+height: 20px;
+width: 50px;
+font-size: x-small;
+border-radius: 15px;
+cursor: pointer;
+display: inline-block;
+transition:0.3sec;
+background-color: #000;
+border: 1px solid white;
+color: white;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .news {
@@ -334,6 +337,7 @@ svg {
     height: auto;
     justify-content: center;
     background-color: black;
+    padding: 50px;
 }
 
 .footer {
@@ -371,6 +375,7 @@ height: auto;
     height: auto;
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: auto;
     justify-items: center;
     align-items: center;
     justify-items: center;
@@ -398,14 +403,6 @@ height: auto;
     font-weight: bold;
 }
 
-.infobiblio {
-    display: flex;
-    width: 100%;
-    height: 800px;
-    background-color: aquamarine;
-    margin: auto;
-
-}
 
 .bibliocontain {
     background-color: black;
@@ -426,6 +423,7 @@ height: auto;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    padding-top: 30px;
 
     
 }
@@ -440,7 +438,7 @@ height: auto;
 }
 .formu{
     text-align: center;
-    margin: 40px 0;
+    margin: 20px 0;
     font-weight: 800;
     justify-content: center;
     color: whitesmoke;
@@ -585,11 +583,18 @@ input{
         height: auto;
     }
 
-    .cotizaciones {
+    .notice {
+        margin-top: auto;
+        margin-bottom: auto;
+        align-items: center;
+        margin: 50px;
         width: auto;
         height: auto;
-        flex-direction: column;
+        background-color: #000;
+        box-shadow: -1px 1px 1px 1px violet;
+        border-radius: 8px;
         align-content: center;
+    
     }
 
     .cotizaciones-box {
@@ -604,12 +609,6 @@ input{
         width: auto;
     }
 
-    .grid {
-        width: auto;
-        height: auto;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
 
     .spacegraph {
         width: 700px;
@@ -632,8 +631,7 @@ input{
     }
 
     .nav {
-        flex-direction: column;
-        flex-wrap: wrap;
+        
         width: auto;
         height: auto;
 
@@ -644,6 +642,21 @@ input{
         height: auto;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        justify-items: center;
+        align-items: center;
+        justify-items: center;
+        align-items: center;
+        background-color: black;
+        
     }
 
     .tarjetas {
@@ -815,7 +828,7 @@ input{
         flex-direction: column;
         box-shadow:none;
         border-color: violet;
-        color: violetet;
+        color: violet;
         
     }
     
@@ -887,6 +900,7 @@ input{
         width: auto;
         height: auto;
         align-content: center;
+        padding:0px;
     }
 
     .navbiblio {
@@ -917,6 +931,7 @@ input{
         height: auto;
         align-content: center;
         text-align: center;
+        padding: auto;
     }
 
     .itemform {
@@ -1046,6 +1061,7 @@ input{
     .resumengraficos {
         width: auto;
         height: auto;
+        margin: auto;
     }
 
     .tradingview {
@@ -1084,6 +1100,7 @@ input{
         width: auto;
         height: auto;  
     }
+    
     
 
 }
