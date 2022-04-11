@@ -45,10 +45,10 @@ video{
 .defi {
     display: flex;
     color: whitesmoke;
-    margin: auto;
-    padding: 10px;
-    padding-left: 50px;
-    padding-right: 50px; 
+
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px; 
     text-align: justify;
    
 }
@@ -90,8 +90,8 @@ video{
     color: whitesmoke;
     margin: auto;
     padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px; 
+    padding-left: 10px;
+    padding-right: 10px; 
     text-align: justify;
 }
 
@@ -126,8 +126,8 @@ video{
 
 .sizevideo {
     display: flex;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 360px;
 }
 
 .resumengraficos {
@@ -176,6 +176,7 @@ video{
     justify-content: center;
     
 }
+
 
 .nav-item {
     font-size: x-small;
@@ -799,6 +800,10 @@ input{
         margin-left: 10px;
         margin-right: 10px;
     }
+    .sizeimg1 {
+        width: 292px;
+        height: 273px;
+        padding:15px;
 
 }
 
@@ -965,8 +970,8 @@ input{
     }
 
     .sizevideo {
-        width: 212px;
-        height: 260px;
+        width: 192px;
+        height: 263px;
         padding-bottom: 15px;
     }
 
@@ -994,6 +999,7 @@ input{
         height: auto;
         display: flex;
         flex-wrap: wrap;
+        padding:50px;
     }
 
     .h1libros {
@@ -1001,6 +1007,7 @@ input{
         height: auto;
         display: flex;
         flex-wrap: wrap;
+        padding:100px;
     }
 
     .libros {
@@ -1100,6 +1107,7 @@ input{
         width: auto;
         height: auto;  
     }
+  
     
     
 
